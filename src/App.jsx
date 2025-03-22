@@ -1,12 +1,15 @@
 
 import './App.css'
+import Hero from './Todo/Hero'
+import TodoLists from './Todo/TodoLists'
 
 function App() {
   
 
   return (
     <div className="main">
-      <h1>Task Tracker List</h1>
+      <Hero/>
+      <TodoLists/>
     </div>
   )
 }

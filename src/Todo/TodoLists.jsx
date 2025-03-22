@@ -1,5 +1,5 @@
-import useTaskStore from "../store/tasksStore";
-import TodoItem from "./TodoLists";
+import useTaskStore from "../Store/Store";
+import TodoList from "./TodoLists";
 import "./todo.css"
 
 function TodoLists() {
@@ -9,7 +9,7 @@ function TodoLists() {
     return ( 
         <section className="todo-items-section-c">
 {
-    tasks.map((task)=><TodoItem title={task.title} description={task.description} complete={task.complete } key={task.id} id={task.id}  />)
+    tasks.map((task)=><TodoList title={task.title} description={task.description} complete={task.complete } key={task.id} id={task.id}  />)
 }
         </section>
      );

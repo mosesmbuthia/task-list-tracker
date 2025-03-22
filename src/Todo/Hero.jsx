@@ -1,5 +1,5 @@
-import useTaskStore from "../store/tasksStore";
-import timeNow from "../Utilities/now";
+import useTaskStore from "../Store/Store";
+import timeNow from "../assets/Utilities/now";
 import TodoInput from "./TodoInput";
 import "./Hero.css";
 function Hero() {
