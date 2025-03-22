@@ -1,0 +1,18 @@
+.hero-section{
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.greeting-text{
+    color: green;
+    text-transform: capitalize;
+}
+
+.info-text{
+    color: var(--white-color);
+    text-transform: capitalize;
+}
